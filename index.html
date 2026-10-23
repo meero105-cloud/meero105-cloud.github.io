@@ -1,0 +1,46 @@
+<!doctype html>
+<html lang="ko">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>비트 공장</title>
+<link rel="icon" href="icon.png">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Gothic+A1:wght@400;800&display=swap">
+<style>
+:root { --bg: #0E0B1C; --fg: #F2EEFF; --muted: #A69FBE; --accent: #FF4FA3; --line: #2D2745; }
+*, *::before, *::after { box-sizing: border-box; }
+body { margin: 0; background: var(--bg); color: var(--fg); font-family: "Gothic A1", "Apple SD Gothic Neo", "Malgun Gothic", sans-serif; line-height: 1.7; }
+main { max-width: 40rem; margin: 0 auto; padding: 3rem max(16px, env(safe-area-inset-left, 0px)) 3rem max(16px, env(safe-area-inset-right, 0px)); display: grid; gap: 1.5rem; }
+.brand { display: flex; gap: 1rem; align-items: center; }
+.brand img { width: 72px; height: 72px; border-radius: 16px; }
+h1 { margin: 0; font-size: 2rem; font-weight: 800; }
+.tag { color: var(--accent); font-size: .9rem; }
+p, ul { margin: 0; }
+ul { padding-left: 1.2rem; display: grid; gap: .3rem; }
+a { color: var(--accent); }
+footer { border-top: 1px solid var(--line); padding-top: 1rem; color: var(--muted); font-size: .9rem; display: grid; gap: .2rem; }
+</style>
+</head>
+<body>
+<main>
+  <div class="brand">
+    <img src="icon.png" alt="비트 공장 아이콘">
+    <div>
+      <h1>비트 공장</h1>
+      <div class="tag">리듬 · 방치형 · 퍼즐</div>
+    </div>
+  </div>
+  <p>박자에 맞춰 탭해서 코인을 모으고, 설비를 사서 공장을 키우고, 배선 퍼즐을 풀어 새 곡을 여는 Android 게임입니다. 모든 음악은 게임 안에서 직접 합성됩니다.</p>
+  <ul>
+    <li>세 레인 리듬 플레이, 홀드 노트, 피버 모드</li>
+    <li>꺼 두어도 돈을 버는 방치형 공장</li>
+    <li>회로를 이어 곡을 여는 배선 퍼즐</li>
+    <li>나만의 곡을 만드는 작곡실</li>
+  </ul>
+  <footer>
+    <a href="privacy/">개인정보처리방침 (Privacy Policy)</a>
+    <span>문의: meero105@gmail.com</span>
+  </footer>
+</main>
+</body>
+</html>
